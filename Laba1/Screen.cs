@@ -113,7 +113,7 @@ class Screen
             float xColorPos = 255 * shape.Position.X / _window.Size.X;
             float yColorPos = 255 * shape.Position.Y / _window.Size.Y;
             float xyColorPos = xColorPos + yColorPos / 2;
-            shape.Color = new Color((byte)(xColorPos), (byte)(yColorPos), 99);
+            shape.Color = new Color((byte)(xColorPos), (byte)(yColorPos), 125);
         }
     }
 
